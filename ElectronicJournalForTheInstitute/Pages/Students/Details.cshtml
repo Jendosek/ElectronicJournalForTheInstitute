@@ -1,0 +1,45 @@
+@page "{id:int}"
+@model ElectronicJournalForTheInstitute.Pages.Students.DetailsModel
+@{
+    ViewData["Title"] = "Деталі студента";
+    Layout = "_Layout";
+}
+
+<h1>Деталі та редагування</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" asp-page-handler="Edit">
+            <input type="hidden" asp-for="Student.Id" />
+            
+            <div class="mb-3">
+                <label asp-for="Student.FirstName" class="form-label">Ім'я</label>
+                <input asp-for="Student.FirstName" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Student.LastName" class="form-label">Прізвище</label>
+                <input asp-for="Student.LastName" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Student.DateOfBirth" class="form-label">Дата народження</label>
+                <input asp-for="Student.DateOfBirth" type="date" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Student.GroupId" class="form-label">ID Групи</label>
+                <input asp-for="Student.GroupId" type="number" class="form-control" required />
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+            <a asp-page="./Index" class="btn btn-secondary">Скасувати</a>
+        </form>
+
+        <hr class="my-4" />
+
+        <form method="post" asp-page-handler="Delete" asp-route-id="@Model.Student.Id">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Ви впевнені, що хочете видалити цього студента? Дані неможливо буде відновити.');">
+                Видалити запис
+            </button>
+        </form>
+    </div>
+</div>
