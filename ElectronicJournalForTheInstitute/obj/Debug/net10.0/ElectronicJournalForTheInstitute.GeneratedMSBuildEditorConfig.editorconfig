@@ -38,68 +38,132 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Grades/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhZGVzL0NyZWF0ZS5jc2h0bWw=
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Grades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JhZGVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Grades/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhZGVzL0RlbGV0ZS5jc2h0bWw=
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Grades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JhZGVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Grades/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhZGVzL0RldGFpbHMuY3NodG1s
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Grades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JhZGVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Grades/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhZGVzL0VkaXQuY3NodG1s
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Grades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JhZGVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Grades/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JhZGVzL0luZGV4LmNzaHRtbA==
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Grades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JhZGVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Groups/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBzL0NyZWF0ZS5jc2h0bWw=
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Groups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JvdXBzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Groups/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBzL0RlbGV0ZS5jc2h0bWw=
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Groups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JvdXBzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Groups/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBzL0RldGFpbHMuY3NodG1s
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Groups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JvdXBzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Groups/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBzL0VkaXQuY3NodG1s
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Groups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JvdXBzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Groups/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBzL0luZGV4LmNzaHRtbA==
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvR3JvdXBzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Lessons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvTGVzc29ucy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Lessons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvTGVzc29ucy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Lessons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvTGVzc29ucy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Lessons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvTGVzc29ucy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Lessons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvTGVzc29ucy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3R1ZGVudHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3R1ZGVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Subjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3ViamVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Subjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3ViamVjdHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Subjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3ViamVjdHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Subjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3ViamVjdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Subjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvU3ViamVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Teachers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVGVhY2hlcnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Teachers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVGVhY2hlcnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Teachers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVGVhY2hlcnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Teachers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVGVhY2hlcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Teachers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVGVhY2hlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVXNlcnMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Users/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVXNlcnMvTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Users/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVXNlcnMvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Features/Users/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMvVXNlcnMvV2VsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Lessons/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVzc29ucy9DcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Lessons/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVzc29ucy9EZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Lessons/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVzc29ucy9EZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Lessons/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVzc29ucy9FZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Lessons/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVzc29ucy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Privacy.cshtml]
@@ -108,70 +172,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Students/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudHMvRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Students/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudHMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Subjects/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViamVjdHMvQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Subjects/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViamVjdHMvRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Subjects/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViamVjdHMvRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Subjects/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViamVjdHMvRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Subjects/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViamVjdHMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Teachers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhY2hlcnMvQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Teachers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhY2hlcnMvRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Teachers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhY2hlcnMvRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Teachers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhY2hlcnMvRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Teachers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhY2hlcnMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Users/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Users/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTG9nb3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Users/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvUmVnaXN0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/Users/Welcome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvV2VsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/Pages/_ViewImports.cshtml]

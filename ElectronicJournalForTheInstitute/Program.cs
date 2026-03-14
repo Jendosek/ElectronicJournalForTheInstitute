@@ -8,7 +8,21 @@ var builder = WebApplication.CreateBuilder(args);
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services
+    .AddRazorPages()
+    .AddRazorPagesOptions(options =>
+    {
+        var featureFolders = new[] { "Grades", "Groups", "Lessons", "Students", "Subjects", "Teachers", "Users" };
+        var pageNames = new[] { "Index", "Details", "Create", "Edit", "Delete", "Login", "Register", "Logout", "Welcome" };
+
+        foreach (var folder in featureFolders)
+        {
+            foreach (var pageName in pageNames)
+            {
+                options.Conventions.AddPageRoute($"/Features/{folder}/{pageName}", $"/{folder}/{pageName}");
+            }
+        }
+    });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -28,7 +42,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 // Вказуємо, куди перекидати користувача, якщо він не авторизований
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Users/Login";
+    options.LoginPath = "/Features/Users/Login";
+    options.AccessDeniedPath = "/Index";
 });
 
 var app = builder.Build();
@@ -55,18 +70,48 @@ app.MapStaticAssets();
 app.MapRazorPages()
     .WithStaticAssets();
 
-// Автоматичне створення ролей
+// Автоматичне створення ролей і тестового адміністратора
 using (var scope = app.Services.CreateScope())
 {
-    var roleManager = scope.ServiceProvider.GetRequiredService<Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole>>();
+    var services = scope.ServiceProvider;
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
     var roles = new[] { "admin", "user" };
-    
+
     foreach (var role in roles)
     {
         if (!await roleManager.RoleExistsAsync(role))
         {
-            await roleManager.CreateAsync(new Microsoft.AspNetCore.Identity.IdentityRole(role));
+            await roleManager.CreateAsync(new IdentityRole(role));
         }
+    }
+
+    const string adminLogin = "admin";
+    const string adminPassword = "admin";
+    const string adminEmail = "admin@local.test";
+
+    var adminUser = await userManager.FindByNameAsync(adminLogin)
+                    ?? await userManager.FindByEmailAsync(adminEmail);
+
+    if (adminUser == null)
+    {
+        adminUser = new ApplicationUser
+        {
+            UserName = adminLogin,
+            Email = adminEmail,
+            FullName = "Administrator"
+        };
+
+        var createAdminResult = await userManager.CreateAsync(adminUser, adminPassword);
+        if (!createAdminResult.Succeeded)
+        {
+            throw new InvalidOperationException($"Не вдалося створити тестового адміністратора: {string.Join(", ", createAdminResult.Errors.Select(e => e.Description))}");
+        }
+    }
+
+    if (!await userManager.IsInRoleAsync(adminUser, "admin"))
+    {
+        await userManager.AddToRoleAsync(adminUser, "admin");
     }
 }
 

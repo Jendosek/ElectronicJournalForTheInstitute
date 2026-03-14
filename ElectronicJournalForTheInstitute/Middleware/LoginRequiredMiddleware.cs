@@ -14,22 +14,29 @@ public class LoginRequiredMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-        var path = context.Request.Path.Value?.ToLower();
+        var path = context.Request.Path.Value?.ToLowerInvariant() ?? string.Empty;
 
-        bool isPublicPage = path == "/" || 
-                            path == "/index" || 
-                            path.StartsWith("/users/login") || 
-                            path.StartsWith("/users/register") || 
-                            path.StartsWith("/users/welcome") || 
-                            path.StartsWith("/aboutproject") ||
-                            path.Contains(".css") || path.Contains(".js") || path.Contains(".ico");
-        
+        var isStaticAsset = path.Contains(".css") || path.Contains(".js") || path.Contains(".ico") ||
+                            path.Contains(".png") || path.Contains(".jpg") || path.Contains(".jpeg") ||
+                            path.Contains(".svg") || path.Contains(".woff") || path.Contains(".woff2");
+
+        bool isPublicPage = path == "/" ||
+                            path == "/index" ||
+                            path == "/aboutproject" ||
+                            path.StartsWith("/users/login") ||
+                            path.StartsWith("/users/register") ||
+                            path.StartsWith("/users/welcome") ||
+                            path.StartsWith("/features/users/login") ||
+                            path.StartsWith("/features/users/register") ||
+                            path.StartsWith("/features/users/welcome") ||
+                            isStaticAsset;
+
         if (context.User.Identity?.IsAuthenticated != true && !isPublicPage)
         {
-            context.Response.Redirect("/Index"); 
+            context.Response.Redirect("/Index");
             return;
         }
 
-        await _next(context); 
+        await _next(context);
     }
 }

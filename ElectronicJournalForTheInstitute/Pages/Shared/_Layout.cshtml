@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -11,58 +11,48 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <nav class="navbar navbar-expand-lg app-navbar">
         <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">ElectronicJournalForTheInstitute</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            <a class="navbar-brand fw-semibold" asp-area="" asp-page="/Index">Електронний журнал</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Головна</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/AboutProject">Про проєкт</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Students/Index">Студенти</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Groups/Index">Групи</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Teachers/Index">Викладачі</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Subjects/Index">Предмети</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Lessons/Index">Заняття</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Grades/Index">Оцінки</a>
-                    </li>
-                </ul> <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Index">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/AboutProject">Про проєкт</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Students/Index">Студенти</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Groups/Index">Групи</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Teachers/Index">Викладачі</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Subjects/Index">Предмети</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Lessons/Index">Заняття</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Features/Grades/Index">Оцінки</a></li>
+                </ul>
+                <ul class="navbar-nav align-items-lg-center gap-lg-2">
                     @if (User.Identity?.IsAuthenticated == true)
                     {
                         <li class="nav-item">
-                            <span class="nav-link text-dark">Привіт, @User.Identity.Name!</span>
+                            <span class="nav-link text-dark">
+                                Привіт, @User.Identity.Name!
+                                <span class="badge rounded-pill text-bg-light border ms-1">
+                                    @(User.IsInRole("admin") ? "admin" : "user")
+                                </span>
+                            </span>
                         </li>
                         <li class="nav-item">
-                            <form class="form-inline" asp-page="/Users/Logout" method="post">
-                                <button type="submit" class="nav-link btn btn-link text-dark">Вийти</button>
+                            <form asp-page="/Features/Users/Logout" method="post">
+                                <button type="submit" class="btn btn-outline-primary btn-sm">Вийти</button>
                             </form>
                         </li>
                     }
                     else
                     {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Users/Register">Реєстрація</a>
+                            <a class="btn btn-outline-secondary btn-sm" asp-page="/Features/Users/Register">Реєстрація</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Users/Login">Вхід</a>
+                            <a class="btn btn-primary btn-sm" asp-page="/Features/Users/Login">Вхід</a>
                         </li>
                     }
                 </ul>
@@ -70,15 +60,31 @@
         </div>
     </nav>
 </header>
-<div class="container">
-    <main role="main" class="pb-3">
+
+<div class="container page-shell">
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="role-banner mb-4">
+            @if (User.IsInRole("admin"))
+            {
+                <span>Режим адміністратора: доступне додавання, редагування та видалення записів.</span>
+            }
+            else
+            {
+                <span>Режим користувача: доступний лише перегляд даних без змін.</span>
+            }
+        </div>
+    }
+
+    <main role="main" class="pb-4">
         @RenderBody()
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2026 - ElectronicJournalForTheInstitute - <a asp-area="" asp-page="/Privacy">Privacy</a>
+<footer class="footer text-muted">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+        <span>&copy; 2026 - ElectronicJournalForTheInstitute</span>
+        <a asp-area="" asp-page="/Privacy">Privacy</a>
     </div>
 </footer>
 

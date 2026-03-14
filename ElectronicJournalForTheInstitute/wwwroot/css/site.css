@@ -8,8 +8,19 @@ html {
   }
 }
 
+:root {
+  --app-bg: #f6f8fc;
+  --app-surface: #ffffff;
+  --app-border: #dfe7f3;
+  --app-primary: #4f7cff;
+  --app-primary-soft: #eef3ff;
+  --app-text: #1f2a44;
+  --app-muted: #667085;
+  --app-shadow: 0 12px 32px rgba(31, 42, 68, 0.08);
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem rgba(79, 124, 255, 0.3);
 }
 
 html {
@@ -18,7 +29,96 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin: 0;
+  margin-bottom: 72px;
+  background: linear-gradient(180deg, #f9fbff 0%, var(--app-bg) 100%);
+  color: var(--app-text);
+}
+
+.app-navbar {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--app-border);
+  box-shadow: 0 8px 20px rgba(31, 42, 68, 0.04);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--app-text) !important;
+}
+
+.nav-link:hover {
+  color: var(--app-primary) !important;
+}
+
+.page-shell {
+  padding-top: 2rem;
+}
+
+.page-card,
+.table,
+.card {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  border-radius: 18px;
+  box-shadow: var(--app-shadow);
+}
+
+.page-card {
+  padding: 1.5rem;
+}
+
+.auth-card {
+  margin-top: 2rem;
+}
+
+.role-banner {
+  background: var(--app-primary-soft);
+  color: var(--app-text);
+  border: 1px solid #d7e3ff;
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+}
+
+.table {
+  overflow: hidden;
+}
+
+.table thead th {
+  background: #f3f6fc;
+  color: var(--app-text);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  border-color: #edf1f7;
+}
+
+.btn-primary {
+  background-color: var(--app-primary);
+  border-color: var(--app-primary);
+}
+
+.btn-outline-primary {
+  color: var(--app-primary);
+  border-color: #c9d7ff;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--app-primary);
+  border-color: var(--app-primary);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid var(--app-border);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +128,14 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+@media (max-width: 767.98px) {
+  .page-shell {
+    padding-top: 1rem;
+  }
+
+  .page-card {
+    padding: 1rem;
+  }
 }

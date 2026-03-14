@@ -111,7 +111,6 @@
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/scopedcss/bundle/ElectronicJournalForTheInstitute.styles.css
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/scopedcss/projectbundle/ElectronicJournalForTheInstitute.bundle.scp.css
-/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/compressed/lng1aqge41-{0}-lugek5hnai-lugek5hnai.gz
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/compressed/39ms74sjx9-{0}-61n19gt1b8-61n19gt1b8.gz
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/compressed/u25ep7os0f-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/compressed/uqj15po43o-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -419,3 +418,5 @@
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/ElectronicJournalForTheInstitute.sourcelink.json
+/Users/evgenijbalaker/RiderProjects/ElectronicJournalForTheInstitute/ElectronicJournalForTheInstitute/obj/Debug/net10.0/compressed/lng1aqge41-{0}-ucj4eqmn37-ucj4eqmn37.gz
